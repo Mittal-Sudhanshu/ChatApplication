@@ -81,9 +81,9 @@ public class Chat extends AppCompatActivity {
                         if (snapshot.child("chat").child(chatKey).hasChild("messages")) {
                             chatLists.clear();
                             for (DataSnapshot messagesSnapshot : snapshot.child("chat").child(chatKey).child("messages").getChildren()) {
-                                if (messagesSnapshot.hasChild("msg") && messagesSnapshot.hasChild("mobile")) {
+                                if (messagesSnapshot.hasChild("msg") && messagesSnapshot.hasChild("mobiile")) {
                                     final String messagesTimeStamps = messagesSnapshot.getKey();
-                                    final String getMobile = messagesSnapshot.child("mobile").getValue(String.class);
+                                    final String getMobile = messagesSnapshot.child("mobiile").getValue(String.class);
                                     final String getMsg = messagesSnapshot.child("msg").getValue(String.class);
                                     Timestamp timestamp = new Timestamp(Long.parseLong(messagesTimeStamps));
                                     Date date = new Date(timestamp.getTime());
