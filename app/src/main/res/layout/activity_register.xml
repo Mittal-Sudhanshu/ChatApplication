@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#C3DAED"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="REGISTER HERE"
+    android:layout_marginBottom="55dp"
+    android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:hint="Name"
+        android:id="@+id/etName"
+        android:paddingStart="20sp"
+        android:paddingEnd="0sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/round_black_white_10"/>
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:hint="Email Address"
+        android:id="@+id/etEmail"
+        android:paddingStart="20sp"
+        android:paddingEnd="0sp"
+        android:layout_marginTop="20sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/round_black_white_10"/>
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:hint="Phone Number"
+        android:layout_marginTop="20sp"
+        android:id="@+id/etPhNo"
+        android:paddingStart="20sp"
+        android:paddingEnd="0sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/round_black_white_10"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_black_white_1000"
+        android:layout_margin="20sp"
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:id="@+id/RegisterBtn"
+        android:backgroundTint="#3B57F4"
+        android:textColor="#fff"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329472322543",
+    "firebase_url": "https://chat-application-745eb-default-rtdb.firebaseio.com",
+    "project_id": "chat-application-745eb",
+    "storage_bucket": "chat-application-745eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329472322543:android:bfd592add1a691a1de641a",
+        "android_client_info": {
+          "package_name": "com.mittal.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329472322543-k8nt3mgd80p7oh253vadtp0vk53jb291.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mittal.chatapplication",
+            "certificate_hash": "aee24a0d45541c7b658d88108fc60a2d360016f0"
+          }
+        },
+        {
+          "client_id": "329472322543-7hu39vruojpo3n1n2d3fftjjqkfc9njf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYXarPSSHytJyU3P_uibNszwPikUOzP9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329472322543-7hu39vruojpo3n1n2d3fftjjqkfc9njf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

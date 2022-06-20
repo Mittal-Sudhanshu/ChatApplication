@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginStart="20sp"
+            android:id="@+id/oppoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is Opposite message"
+                android:textColor="#000000"
+                android:id="@+id/opoMessage"
+                android:textStyle="bold"
+                android:padding="20sp"
+                android:background="@drawable/opo_msg_bac"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:id="@+id/opoTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19-06-22 10:04 PM"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_marginStart="50sp"
+            android:id="@+id/myLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is My message"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:padding="20sp"
+                android:id="@+id/myMessage"
+                android:background="@drawable/my_msg_back"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:id="@+id/myTime"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19-06-22 10:04 PM"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

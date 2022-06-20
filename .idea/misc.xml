@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.185" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2135" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.222" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/my_msg_back.xml" value="0.2135" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/opo_msg_bac.xml" value="0.2135" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/round_back_light_10.xml" value="0.222" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/round_black_white_10.xml" value="0.185" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/drawable/round_black_white_1000.xml" value="0.185" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/layout/activity_register.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/layout/chat_adapter_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Sudhanshu/AndroidStudioProjects/ChatApplication/app/src/main/res/layout/messages_adapter_layout.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
