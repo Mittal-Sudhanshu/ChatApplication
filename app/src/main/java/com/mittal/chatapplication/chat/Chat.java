@@ -17,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.mittal.chatapplication.MainActivity;
 import com.mittal.chatapplication.MemoryData;
 import com.mittal.chatapplication.R;
 import com.squareup.picasso.Picasso;
@@ -101,7 +102,6 @@ public class Chat extends AppCompatActivity {
                                         chattingRecView.scrollToPosition(chatLists.size()-1);
 
                                     }
-
                                 }
                             }
                         }
@@ -116,20 +116,23 @@ public class Chat extends AppCompatActivity {
         sendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String getTxtMessage=messageET.getText().toString();
-                final String currentTimeStamp=String.valueOf(System.currentTimeMillis()).substring(0,10);
+                if (!messageET.getText().toString().isEmpty()) {
+                    final String getTxtMessage = messageET.getText().toString();
+                    final String currentTimeStamp = String.valueOf(System.currentTimeMillis()).substring(0, 10);
 
-                databaseReference.child("chat").child(chatKey).child("user_1").setValue(getUserMobile);
-                databaseReference.child("chat").child(chatKey).child("user_2").setValue(getMobile);
-                databaseReference.child("chat").child(chatKey).child("messages").child(currentTimeStamp).child("msg").setValue(getTxtMessage);
-                databaseReference.child("chat").child(chatKey).child("messages").child(currentTimeStamp).child("mobiile").setValue(getUserMobile);
-                messageET.setText("");
+                    databaseReference.child("chat").child(chatKey).child("user_1").setValue(getUserMobile);
+                    databaseReference.child("chat").child(chatKey).child("user_2").setValue(getMobile);
+                    databaseReference.child("chat").child(chatKey).child("messages").child(currentTimeStamp).child("msg").setValue(getTxtMessage);
+                    databaseReference.child("chat").child(chatKey).child("messages").child(currentTimeStamp).child("mobiile").setValue(getUserMobile);
+                    messageET.setText("");
+                }
             }
         });
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+               finish();
+
             }
         });
 

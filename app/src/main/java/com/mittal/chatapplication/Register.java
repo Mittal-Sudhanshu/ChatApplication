@@ -35,7 +35,7 @@ public class Register extends AppCompatActivity {
         ProgressDialog progressDialog=new ProgressDialog(this);
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Loading...");
-        if (MemoryData.getData(this).isEmpty()){
+        if (!MemoryData.getData(this).isEmpty()){
             Intent intent=new Intent(Register.this,MainActivity.class);
             intent.putExtra("phoneNo",MemoryData.getData(this));
             intent.putExtra("name",MemoryData.getName(this));
